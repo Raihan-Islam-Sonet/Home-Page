@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/photo9.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    font-size: 25px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+.text{
+    color: white;
+    font-size: 20px;
+    border-style: dotted solid double dashed;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px 15px;
+}
+.main{
+    max-width: 1300px;
+    margin: auto;
+}
+.title{
+    color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    transform: translate(-50%,-50%);
+}
+.button{
+    position: absolute;
+    top:60%;
+    left: 50%;
+    font-size: 40px;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid red;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
